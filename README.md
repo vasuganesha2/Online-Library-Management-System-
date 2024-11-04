@@ -22,6 +22,7 @@ To compile the server and client, follow these steps:
    ./server
    
  2. **Compile the Client:**
+
     Open another terminal  and run the following command to run the client:
        ```bash
      gcc -o logic client.c logic.c

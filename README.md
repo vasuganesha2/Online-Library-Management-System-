@@ -69,7 +69,7 @@ We would like to thank the following contributors for their valuable input and c
 - [Vasu Aggarwal](https://github.com/vasuganesha2)
 - [Shreyas Ghildiyal](https://github.com/welcome-to-the-sunny-side)
 - [Sanchit Dogra](https://github.com/meikenofdarth)
-- [Rutul Patel](https://github.com/rpatel1605)
+- [Rishi Patel](https://github.com/rpatel1605)
 
 If you would like to contribute, feel free to fork the repository and submit a pull request!
 

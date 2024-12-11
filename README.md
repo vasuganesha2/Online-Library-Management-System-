@@ -63,3 +63,14 @@ To compile the server and client, follow these steps:
      gcc -o logic client.c logic.c
      ./logic
 
+## Contributors
+We would like to thank the following contributors for their valuable input and contributions to this project:
+
+- [Vasu Aggarwal](https://github.com/vasuganesha2)
+- [Shreyas Ghildiyal](https://github.com/welcome-to-the-sunny-side)
+- [Sanchit Dogra](https://github.com/meikenofdarth)
+- [Rutul Patel](https://github.com/rpatel1605)
+
+If you would like to contribute, feel free to fork the repository and submit a pull request!
+
+

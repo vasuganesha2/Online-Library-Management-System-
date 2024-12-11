@@ -9,11 +9,6 @@ The **Online Library Management System** is a project designed to manage library
 - GCC (GNU Compiler Collection)
 - pthread library for multi-threading support
 
-- # Online Library Management System
-
-## Project Overview
-The Online Library Management System is a client-server application implemented in C. It enables efficient handling of user and book records, leveraging advanced programming techniques for performance and scalability. Key features include threading, hashing, modular design, and structured data management.
-
 ---
 
 ## Feature Engineering

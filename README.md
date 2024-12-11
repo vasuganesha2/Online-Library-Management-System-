@@ -9,6 +9,46 @@ The **Online Library Management System** is a project designed to manage library
 - GCC (GNU Compiler Collection)
 - pthread library for multi-threading support
 
+- # Online Library Management System
+
+## Project Overview
+The Online Library Management System is a client-server application implemented in C. It enables efficient handling of user and book records, leveraging advanced programming techniques for performance and scalability. Key features include threading, hashing, modular design, and structured data management.
+
+---
+
+## Feature Engineering
+
+### Efficient Data Management
+
+- **Database Implementation**: The project employs a Binary Search Tree (BST) for fast and efficient database operations, enabling quick access and updates to user and book records.
+- **Indexing**: Utilizes `.dat` and `.ndx` files for structured storage and indexing of data, ensuring optimized lookups and minimal disk I/O.
+
+### Threading and Concurrency
+
+- **Multithreading**: Incorporates threading for simultaneous processing of multiple client requests, improving responsiveness and scalability.
+- **Synchronization**: Ensures safe concurrent access to shared resources, preventing data corruption.
+
+### Hashing for Security
+
+- **Password Management**: Implements hashing mechanisms to securely store and validate passwords, protecting user credentials from potential breaches.
+
+### Layered Architecture
+
+- **Modular Design**: Organized into distinct modules like `client`, `server`, and `logic`, adhering to a clean separation of concerns for better maintainability.
+- **Custom Libraries**: Includes reusable headers and source files, promoting extensibility.
+
+### Extensibility
+
+- **Dynamic Data Updates**: Designed to support new features like enhanced search filters, book categorization, or user role management with minimal code restructuring.
+- **Scalability**: Capable of handling an increasing number of users and books as the library grows.
+
+### Testing and Validation
+
+- **Test Framework**: Includes custom test modules like `tester.c` to validate core functionalities, ensuring code reliability.
+- **Error Logging**: Provides detailed error outputs for debugging and system monitoring.
+
+---
+
 ## Compilation
 
 To compile the server and client, follow these steps:

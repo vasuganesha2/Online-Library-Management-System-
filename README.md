@@ -53,7 +53,7 @@ To compile the server and client, follow these steps:
    Open a terminal and run the following command to run the server:
 
    ```bash
-   gcc -o server Database/User.c Database/pds.c Database/bst.c server.c -lpthread
+   gcc Database/User.c Database/pds.c Database/bst.c server.c -lpthread -o server
    ./server
    
  2. **Compile the Client:**
@@ -62,14 +62,6 @@ To compile the server and client, follow these steps:
        ```bash
      gcc -o logic client.c logic.c
      ./logic
-
-## Contributors
-We would like to thank the following contributors for their valuable input and contributions to this project:
-
-- [Vasu Aggarwal](https://github.com/vasuganesha2)
-- [Shreyas Ghildiyal](https://github.com/welcome-to-the-sunny-side)
-- [Sanchit Dogra](https://github.com/meikenofdarth)
-- [Rishi Patel](https://github.com/rpatel1605)
 
 If you would like to contribute, feel free to fork the repository and submit a pull request!
 
